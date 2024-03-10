@@ -3,11 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-login-page',
-  standalone: true,
-  imports: [
-    CommonModule,
-  ],
-  template: `<p>login-page works!</p>`,
+  templateUrl: './login-page.component.html',
   styleUrl: './login-page.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

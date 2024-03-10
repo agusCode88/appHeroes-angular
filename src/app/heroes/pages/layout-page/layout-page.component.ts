@@ -3,11 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-layout-page',
-  standalone: true,
-  imports: [
-    CommonModule,
-  ],
-  template: `<p>Heroes layout-page works!</p>`,
+  templateUrl: './layout-page.component.html',
   styleUrl: './layout-page.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
